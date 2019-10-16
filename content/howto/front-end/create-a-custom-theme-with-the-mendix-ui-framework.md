@@ -13,7 +13,7 @@ This how-to presents creating a custom theme with the Mendix UI Framework.
 **This how-to will teach you how to do the following:**
 
 * Create a new app
-* Set up [Scout](https://github.com/scout-app/scout-app) and the [Mendix UI Framework](https://ux.mendix.com/)
+* Set up [Scout](https://scout-app.io/) and the [Mendix UI Framework](https://ux.mendix.com/)
 * Change the custom variables
 * Create a custom theme
 
@@ -22,7 +22,7 @@ This how-to presents creating a custom theme with the Mendix UI Framework.
 Before starting with this how-to, make sure you have completed the following prerequisites:
 
 * Download the latest version of [Mendix Studio Pro](https://appstore.mendix.com/)
-* Download [Scout](http://mhs.github.io/scout-app/) (or use a different compiler, such as [Sass](http://sass-lang.com/install))
+* Download [Scout](https://scout-app.io/) (or use a different compiler, such as [Sass](http://sass-lang.com/install))
 * Download your preferred text editor (such as [Sublime Text](http://www.sublimetext.com/))
 
 ## 3 Creating a New App in Mendix Studio Pro
@@ -37,7 +37,7 @@ To create a new app and select a theme from the **New App** selector, follow the
 
 ## 4 Configuring Scout
 
-To be able to make changes to the theme, Mendix suggests using [Sass](http://sass-lang.com/) instead of traditional CSS. The Mendix UI Framework uses Sass, which relies on Ruby. However, you can install Scout to run Sass in a self-contained Ruby environment, letting you effortlessly manage all of your Sass projects with a handful of clicks. This way you don't have to worry about using the terminal (although you can still do this if you are familiar with Sass and the terminal).
+To be able to make changes to the theme, Mendix suggests using [Sass](http://sass-lang.com/) instead of traditional CSS. The Mendix UI Framework uses Sass, which relies on Ruby. However, you can install Scout to run Sass, letting you effortlessly manage all of your Sass projects with a handful of clicks. This way you don't have to worry about using the terminal (although you can still do this if you are familiar with Sass and the terminal).
 
 To configure Scout, follow these steps:
 
